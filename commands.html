@@ -1,61 +1,38 @@
-<!--
-Template Information
-Name: Discord Bot Website
-Author: Roee Lupo (aka MrSheldon)
-License: MIT
--->
 
-<html lang="en">
+  <head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="MrSheldon">
-    <link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
+  <!-- Style -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/fresh-bootstrap-table.css" rel="stylesheet" />
 
-<body bgcolor="#7289DA">
-    <main id="synx-sub-con" class="synx-sub-con">
-    <div class="synx-table animated fadeIn" style="animation-duration: 3s;">
-	<table style="text-align center;" class="table table-hover">
-						<thead>
-							<tr>
-							<th>Command</th>
-							<th>Description</th>
-							</tr>
-					         	</thead>
-						        <tbody>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-							<tr>
-							<td>Command</td>
-							<td>Description</td>
-							</tr>
-						</tbody>
-					</table>
-</body>
-</html>
+  <!-- Fonts and icons -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet">
+
+  </head>
+
+  <div class="fresh-table full-color-azure">
+    <!--
+      Available colors for the full background: full-color-blue, full-color-azure, full-color-green, full-color-red, full-color-orange
+      Available colors only for the toolbar: toolbar-color-blue, toolbar-color-azure, toolbar-color-green, toolbar-color-red, toolbar-color-orange
+    -->
+
+    <div class="toolbar">
+      <a class="btn btn-primary btn-lg" href="https://mapcomp.github.io" role="button">Home</a>
+    </div>
+
+    <table id="fresh-table" class="table">
+      <thead>
+        <th data-field="id">Type</th>
+        <th data-field="name">Command</th>
+        <th data-field="salary">Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fun</td>
+          <td>mc hi</td>
+          <td>Says hi back!</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
