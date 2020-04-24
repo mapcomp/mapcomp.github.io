@@ -24,7 +24,7 @@ ul {
 
 li {
     float: right;
-    border-right:1px solid #7289DA;
+    border-right:1px solid #000047;
 }
 
 li:last-child {
@@ -40,7 +40,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #7289DA;
+    background-color: #000047;
 }
 
 .active {
@@ -57,11 +57,11 @@ li a:hover:not(.active) {
 }
 .btn {
   background: #7288da;
-  background-image: -webkit-linear-gradient(top, #7288da, #7288da);
-  background-image: -moz-linear-gradient(top, #7288da, #7288da);
-  background-image: -ms-linear-gradient(top, #7288da, #7288da);
-  background-image: -o-linear-gradient(top, #7288da, #7288da);
-  background-image: linear-gradient(to bottom, #7288da, #7288da);
+  background-image: -webkit-linear-gradient(top, #000047, #000047);
+  background-image: -moz-linear-gradient(top, #000047, #000047);
+  background-image: -ms-linear-gradient(top, #000047, #000047);
+  background-image: -o-linear-gradient(top, #000047, #000047);
+  background-image: linear-gradient(to bottom, #000047, #000047);
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
@@ -74,11 +74,11 @@ li a:hover:not(.active) {
 
 .btn:hover {
   background: #7288da;
-  background-image: -webkit-linear-gradient(top, #7288da, #7288da);
-  background-image: -moz-linear-gradient(top, #7288da, #7288da);
-  background-image: -ms-linear-gradient(top, #7288da, #7288da);
-  background-image: -o-linear-gradient(top, #7288da, #7288da);
-  background-image: linear-gradient(to bottom, #7288da, #7288da);
+  background-image: -webkit-linear-gradient(top, #000047, #000047);
+  background-image: -moz-linear-gradient(top, #000047, #000047);
+  background-image: -ms-linear-gradient(top, #000047, #000047);
+  background-image: -o-linear-gradient(top, #000047, #000047);
+  background-image: linear-gradient(to bottom, #000047, #000047);
   text-decoration: none;
 }
 a {
