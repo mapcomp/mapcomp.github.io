@@ -12,12 +12,12 @@
 }
 
 .form-control {
-    background-color: $white-bg;
+    background-color: $gray-bg;
     border: $border-thick solid $default-color;
     border-radius: $btn-round-radius;
     font-weight: $font-weight-bold;
 
-    color: #666666;
+    color: #FFFFFF;
     @include input-size($padding-base-vertical, $padding-base-horizontal, $height-base);
     @include box-shadow(none);
 
