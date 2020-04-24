@@ -331,7 +331,7 @@ h1 small{
 .has-switch span.switch-right {
   border-radius: 0 30px 30px 0;
   background-color: #2CA8FF;
-  color: #ffffff;
+  color: #FFFFFF;
   text-indent: 1px;
 }
 
@@ -383,7 +383,7 @@ h1 small{
 .logo-container .logo{
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 1px solid #FFFFFF;
     width: 60px;
     float: left;
 }
