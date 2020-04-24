@@ -1,7 +1,7 @@
 /*           Font Smoothing      */
 
 body{
-    font-family: "Roboto","Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn, a, .td-name, td, .form-control, label{
@@ -44,7 +44,7 @@ p{
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-    color: $dark-gray;
+    color: $white;
     font-weight: $font-weight-light;
     line-height: $line-height-general;
 }
@@ -55,22 +55,22 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 h1 .subtitle{
     display: block;
-    font-family: 'Grand Hotel',cursive;
+    font-family: 'Poppins', sans-serif !important;
     margin: 0 0 $margin-large-vertical;
 }
 
 .text-primary, .text-primary:hover{
-    color: #1D62F0 !important;
+    color: #FFFFFF !important;
 }
 .text-info, .text-info:hover{
-    color: #109CFF !important;
+    color: #FFFFFF !important;
 }
 .text-success, .text-success:hover{
-    color: #0C9C14 !important;
+    color: #FFFFFF !important;
 }
 .text-warning, .text-warning:hover{
-    color: #ED8D00 !important;
+    color: #FFFFFF !important;
 }
 .text-danger, .text-danger:hover{
-    color: #EE2D20 !important;
+    color: #FFFFFF !important;
 }
